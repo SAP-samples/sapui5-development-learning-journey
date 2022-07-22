@@ -1,0 +1,266 @@
+[
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "CustomerNumber": "1",
+        "Form": "Firma",
+        "CustomerName": "SAP SE",
+        "Street": "Dietmar-Hopp-Allee 16",
+        "PostCode": "69190",
+        "City": "Walldorf",
+        "Country": "DE",
+        "Email": "info@sap.de",
+        "Telephone": "06227-34-0",
+        "Discount": "10",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "CustomerNumber": "2",
+        "Form": "Herr",
+        "CustomerName": "Andreas Klotz",
+        "Street": "Pimpinellenweg 9",
+        "PostCode": "69190",
+        "City": "Walldorf",
+        "Country": "DE",
+        "Email": "Andreas.Klotz@sap.com",
+        "Telephone": "05344-676792",
+        "Discount": "20",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "CustomerNumber": "3",
+        "Form": "Herr",
+        "CustomerName": "Hans Bullinger",
+        "Street": "Veilchenstraße 12",
+        "PostCode": "69119",
+        "City": "Heidelberg",
+        "Country": "DE",
+        "Email": "Hansi@Bulli.de",
+        "Telephone": "02099-44591",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "CustomerNumber": "4",
+        "Form": "Frau",
+        "CustomerName": "Staerck",
+        "Street": "Kaiserstr. 55",
+        "PostCode": "69115",
+        "City": "Heidelberg",
+        "Country": "DE",
+        "Email": "Farbenblind@gmx.de",
+        "Telephone": "07508-66-7886",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "CustomerNumber": "5",
+        "Form": "Mister",
+        "CustomerName": "Martin",
+        "Street": "44 Harolds Road",
+        "PostCode": "L07 1AZ",
+        "City": "Liverpool",
+        "Country": "GB",
+        "Email": "Steve.Martin@hool.uk",
+        "Telephone": "3457-345-2472",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "CustomerNumber": "6",
+        "Form": "Miss",
+        "CustomerName": "Starr",
+        "Street": "74 Kings Road",
+        "PostCode": "L07 3BC",
+        "City": "Liverpool",
+        "Country": "GB",
+        "Email": "FCStar@unio.uk",
+        "Telephone": "5454-46-4674",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "CustomerNumber": "7",
+        "Form": "Mister",
+        "CustomerName": "King",
+        "Street": "7 Abbey Road",
+        "PostCode": "M21 7AB",
+        "City": "London",
+        "Country": "GB",
+        "Email": "Burger@King.com",
+        "Telephone": "6548-78-9876",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9db2cf",
+        "CustomerNumber": "8",
+        "Form": "Company",
+        "CustomerName": "Moore",
+        "Street": "14 Carnaby Street",
+        "PostCode": "SW3 4DE",
+        "City": "London",
+        "Country": "GB",
+        "Email": "Moore@abc.net",
+        "Telephone": "3790-34-4384",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "CustomerNumber": "9",
+        "Form": "",
+        "CustomerName": "Everton FC",
+        "Street": "Sir Wellington Road",
+        "PostCode": "L08 5RZ",
+        "City": "Liverpool",
+        "Country": "GB",
+        "Email": "Football.Liverpool@sports.com",
+        "Telephone": "332-5678-0",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9df2cf",
+        "CustomerNumber": "10",
+        "Form": "Herr",
+        "CustomerName": "Raupp",
+        "Street": "Glockenblumenweg 5",
+        "PostCode": "8002",
+        "City": "Zuerich",
+        "Country": "CH",
+        "Email": "HelmutDanielaRaupp@swiss.ch",
+        "Telephone": "+41 44 269 99 99",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "CustomerNumber": "11",
+        "Form": "Herr",
+        "CustomerName": "Ballmann",
+        "Street": "Ballmanns Leiden 7",
+        "PostCode": "69115",
+        "City": "Heidelberg",
+        "Country": "DE",
+        "Email": "Ball@mann.net",
+        "Telephone": "+49 6221 6784534",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    },
+    {
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "CustomerNumber": "12",
+        "Form": "Frau",
+        "CustomerName": "Radetzky",
+        "Street": "Mozartstr. 102",
+        "PostCode": "1000",
+        "City": "Wien",
+        "Country": "AT",
+        "Email": "Radetzky@Marsch.at",
+        "Telephone": "01 533 99 22",
+        "Discount": "0",
+        "changed_at": null,
+        "__CreateByAssociationControl": {
+            "_Bookings": true
+        },
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "SAP__Messages": []
+    }
+]

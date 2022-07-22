@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.Analytics.v1" Alias="Analytics" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="SAP__common" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_MEASURES',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="Org.OData.Measures.V1" Alias="SAP__measures" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CORE',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="SAP__core" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="SAP__capabilities" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="SAP__aggregation" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="Org.OData.Validation.V1" Alias="SAP__validation" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CODELIST',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.CodeList.v1" Alias="SAP__CodeList" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="SAP__UI" />
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_HTML5',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.HTML5.v1" Alias="SAP__HTML5" />
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema Namespace="com.sap.gateway.srvd.ux_ui_customer.v0001" Alias="SAP__self">
+            <Annotation Term="SAP__core.SchemaVersion" String="1.0.0" />
+            <EntityType Name="UX_CustomerType">
+                <Key>
+                    <PropertyRef Name="CustomerGuid" />
+                </Key>
+                <Property Name="CustomerGuid" Type="Edm.Guid" Nullable="false" />
+                <Property Name="CustomerNumber" Type="Edm.String" Nullable="false" MaxLength="8" />
+                <Property Name="Form" Type="Edm.String" Nullable="false" MaxLength="15" />
+                <Property Name="CustomerName" Type="Edm.String" Nullable="false" MaxLength="25" />
+                <Property Name="Street" Type="Edm.String" Nullable="false" MaxLength="30" />
+                <Property Name="PostCode" Type="Edm.String" Nullable="false" MaxLength="10" />
+                <Property Name="City" Type="Edm.String" Nullable="false" MaxLength="25" />
+                <Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="3" />
+                <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="40" />
+                <Property Name="Telephone" Type="Edm.String" Nullable="false" MaxLength="30" />
+                <Property Name="Discount" Type="Edm.String" Nullable="false" MaxLength="3" />
+                <Property Name="changed_at" Type="Edm.DateTimeOffset" Precision="7" />
+                <Property Name="__CreateByAssociationControl" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_CustomerCbAControl" />
+                <Property Name="__EntityControl" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.EntityControl" />
+                <Property Name="SAP__Messages" Type="Collection(com.sap.gateway.srvd.ux_ui_customer.v0001.SAP__Message)" Nullable="false" />
+                <NavigationProperty Name="_Bookings" Type="Collection(com.sap.gateway.srvd.ux_ui_customer.v0001.UX_BookingType)" Partner="_Customer">
+                    <OnDelete Action="Cascade" />
+                </NavigationProperty>
+            </EntityType>
+            <EntityType Name="UX_BookingType">
+                <Key>
+                    <PropertyRef Name="BookingGuid" />
+                </Key>
+                <Property Name="BookingGuid" Type="Edm.Guid" Nullable="false" />
+                <Property Name="AirlineID" Type="Edm.String" Nullable="false" MaxLength="3" />
+                <Property Name="ConnectionNumber" Type="Edm.String" Nullable="false" MaxLength="4" />
+                <Property Name="FlightDate" Type="Edm.Date" />
+                <Property Name="BookingNumber" Type="Edm.String" Nullable="false" MaxLength="8" />
+                <Property Name="BookingDate" Type="Edm.Date" />
+                <Property Name="Class" Type="Edm.String" Nullable="false" MaxLength="1" />
+                <Property Name="ForeignCurrencyPayment" Type="Edm.Decimal" Nullable="false" Precision="15" Scale="variable" />
+                <Property Name="ForeignCurrency" Type="Edm.String" Nullable="false" MaxLength="5" />
+                <Property Name="AgencyNumber" Type="Edm.String" Nullable="false" MaxLength="8" />
+                <Property Name="CustomerGuid" Type="Edm.Guid" />
+                <Property Name="IsCancelled" Type="Edm.String" Nullable="false" MaxLength="1" />
+                <Property Name="__EntityControl" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.EntityControl" />
+                <Property Name="__OperationControl" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_BookingOperationControl" />
+                <Property Name="SAP__Messages" Type="Collection(com.sap.gateway.srvd.ux_ui_customer.v0001.SAP__Message)" Nullable="false" />
+                <NavigationProperty Name="_Customer" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_CustomerType" Nullable="false" Partner="_Bookings" />
+            </EntityType>
+            <ComplexType Name="UX_CustomerCbAControl">
+                <Property Name="_Bookings" Type="Edm.Boolean" Nullable="false" />
+            </ComplexType>
+            <ComplexType Name="UX_BookingOperationControl">
+                <Property Name="cancel_booking" Type="Edm.Boolean" Nullable="false" />
+            </ComplexType>
+            <ComplexType Name="EntityControl">
+                <Property Name="Deletable" Type="Edm.Boolean" Nullable="false" />
+                <Property Name="Updatable" Type="Edm.Boolean" Nullable="false" />
+            </ComplexType>
+            <ComplexType Name="SAP__Message">
+                <Property Name="code" Type="Edm.String" Nullable="false" />
+                <Property Name="message" Type="Edm.String" Nullable="false" />
+                <Property Name="target" Type="Edm.String" />
+                <Property Name="additionalTargets" Type="Collection(Edm.String)" Nullable="false" />
+                <Property Name="transition" Type="Edm.Boolean" Nullable="false" />
+                <Property Name="numericSeverity" Type="Edm.Byte" Nullable="false" />
+                <Property Name="longtextUrl" Type="Edm.String" />
+            </ComplexType>
+            <Action Name="cancel_booking" IsBound="true">
+                <Parameter Name="_it" Type="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_BookingType" Nullable="false" />
+            </Action>
+            <EntityContainer Name="Container">
+                <EntitySet Name="UX_Booking" EntityType="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_BookingType">
+                    <NavigationPropertyBinding Path="_Customer" Target="UX_Customer" />
+                </EntitySet>
+                <EntitySet Name="UX_Customer" EntityType="com.sap.gateway.srvd.ux_ui_customer.v0001.UX_CustomerType">
+                    <NavigationPropertyBinding Path="_Bookings" Target="UX_Booking" />
+                </EntitySet>
+            </EntityContainer>
+            <Annotations Target="SAP__self.UX_CustomerType/CustomerGuid">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.Label" String="FBP GUID" />
+                <Annotation Term="SAP__common.Heading" String="Flight Business Partner GUID" />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight Business Partner GUID" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/CustomerNumber">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.IsDigitSequence" />
+                <Annotation Term="SAP__common.Label" String="Customer Number" />
+                <Annotation Term="SAP__common.Heading" String="Cust. No." />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/CustomerName">
+                <Annotation Term="SAP__common.FieldControl" EnumMember="SAP__common.FieldControlType/Mandatory" />
+                <Annotation Term="SAP__common.Label" String="Customer name" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/PostCode">
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="SAP__common.Label" String="Postal Code" />
+                <Annotation Term="SAP__common.Heading" String="Post. code" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Country">
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="SAP__common.Label" String="Country" />
+                <Annotation Term="SAP__common.Heading" String="Ctry" />
+                <Annotation Term="SAP__common.QuickInfo" String="Country Code" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Telephone">
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="Communication.IsPhoneNumber" />
+                <Annotation Term="SAP__common.Label" String="Tel. no." />
+                <Annotation Term="SAP__common.Heading" String="Telephone no." />
+                <Annotation Term="SAP__common.QuickInfo" String="Telephone number of flight customer" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Discount">
+                <Annotation Term="SAP__common.IsDigitSequence" />
+                <Annotation Term="SAP__common.Label" String="Discount (%)" />
+                <Annotation Term="SAP__common.Heading" String="Discount" />
+                <Annotation Term="SAP__common.QuickInfo" String="Discount rate" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/__CreateByAssociationControl">
+                <Annotation Term="SAP__core.Computed" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/__EntityControl">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__UI.HiddenFilter" />
+                <Annotation Term="SAP__UI.Hidden" />
+            </Annotations>
+            <Annotations Target="SAP__self.Container/UX_Customer">
+                <Annotation Term="SAP__capabilities.NavigationRestrictions">
+                    <Record>
+                        <PropertyValue Property="RestrictedProperties">
+                            <Collection>
+                                <Record>
+                                    <PropertyValue Property="NavigationProperty" NavigationPropertyPath="_Bookings" />
+                                    <PropertyValue Property="InsertRestrictions">
+                                        <Record>
+                                            <PropertyValue Property="Insertable" Path="__CreateByAssociationControl/_Bookings" />
+                                        </Record>
+                                    </PropertyValue>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.SearchRestrictions">
+                    <Record>
+                        <PropertyValue Property="Searchable" Bool="true" />
+                        <PropertyValue Property="UnsupportedExpressions" EnumMember="SAP__capabilities.SearchExpressions/AND SAP__capabilities.SearchExpressions/OR SAP__capabilities.SearchExpressions/NOT SAP__capabilities.SearchExpressions/group SAP__capabilities.SearchExpressions/phrase" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.FilterRestrictions">
+                    <Record>
+                        <PropertyValue Property="NonFilterableProperties">
+                            <Collection>
+                                <PropertyPath>__CreateByAssociationControl</PropertyPath>
+                                <PropertyPath>__EntityControl</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.SortRestrictions">
+                    <Record>
+                        <PropertyValue Property="NonSortableProperties">
+                            <Collection>
+                                <PropertyPath>__CreateByAssociationControl</PropertyPath>
+                                <PropertyPath>__EntityControl</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.DeleteRestrictions">
+                    <Record>
+                        <PropertyValue Property="Deletable" Path="__EntityControl/Deletable" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.UpdateRestrictions">
+                    <Record>
+                        <PropertyValue Property="Updatable" Path="__EntityControl/Updatable" />
+                        <PropertyValue Property="QueryOptions">
+                            <Record>
+                                <PropertyValue Property="SelectSupported" Bool="true" />
+                            </Record>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType">
+                <Annotation Term="SAP__common.Label" String="Flight Customer - Projection" />
+                <Annotation Term="Communication.Contact">
+                    <Record>
+                        <PropertyValue Property="fn" Path="CustomerName" />
+                        <PropertyValue Property="n">
+                            <Record>
+                                <PropertyValue Property="prefix" Path="Form" />
+                            </Record>
+                        </PropertyValue>
+                        <PropertyValue Property="adr">
+                            <Collection>
+                                <Record>
+                                    <PropertyValue Property="type" EnumMember="Communication.ContactInformationType/preferred" />
+                                    <PropertyValue Property="locality" Path="City" />
+                                    <PropertyValue Property="street" Path="Street" />
+                                    <PropertyValue Property="country" Path="Country" />
+                                    <PropertyValue Property="code" Path="PostCode" />
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="tel">
+                            <Collection>
+                                <Record>
+                                    <PropertyValue Property="type" EnumMember="Communication.PhoneType/preferred" />
+                                    <PropertyValue Property="uri" Path="Telephone" />
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="email">
+                            <Collection>
+                                <Record>
+                                    <PropertyValue Property="address" Path="Email" />
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="Communication.Address" Qualifier="pref">
+                    <Record>
+                        <PropertyValue Property="type" EnumMember="Communication.ContactInformationType/preferred" />
+                        <PropertyValue Property="locality" Path="City" />
+                        <PropertyValue Property="street" Path="Street" />
+                        <PropertyValue Property="country" Path="Country" />
+                        <PropertyValue Property="code" Path="PostCode" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__common.Messages" Path="SAP__Messages" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/BookingGuid">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.Label" String="BK GUID" />
+                <Annotation Term="SAP__common.Heading" String="Flight Booking GUID" />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight Booking GUID" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/AirlineID">
+                <Annotation Term="SAP__common.FieldControl" EnumMember="SAP__common.FieldControlType/Mandatory" />
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="SAP__common.Label" String="Airline" />
+                <Annotation Term="SAP__common.Heading" String="ID" />
+                <Annotation Term="SAP__common.QuickInfo" String="Airline Code" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/ConnectionNumber">
+                <Annotation Term="SAP__common.IsDigitSequence" />
+                <Annotation Term="SAP__common.Label" String="Connection Number" />
+                <Annotation Term="SAP__common.Heading" String="No." />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight Connection Number" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/BookingNumber">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.IsDigitSequence" />
+                <Annotation Term="SAP__common.Label" String="Booking number" />
+                <Annotation Term="SAP__common.Heading" String="Booking" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/BookingDate">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.Label" String="Posting date" />
+                <Annotation Term="SAP__common.Heading" String="Book.date" />
+                <Annotation Term="SAP__common.QuickInfo" String="Booking Date" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/Class">
+                <Annotation Term="SAP__common.FieldControl" EnumMember="SAP__common.FieldControlType/Mandatory" />
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="SAP__common.Label" String="Class" />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight Class" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/ForeignCurrencyPayment">
+                <Annotation Term="SAP__common.FieldControl" EnumMember="SAP__common.FieldControlType/Mandatory" />
+                <Annotation Term="SAP__measures.ISOCurrency" Path="ForeignCurrency" />
+                <Annotation Term="SAP__common.Label" String="Amount" />
+                <Annotation Term="SAP__common.Heading" String="Amount (for.currncy)" />
+                <Annotation Term="SAP__common.QuickInfo" String="Booking price in foreign currency (dependent on location)" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/ForeignCurrency">
+                <Annotation Term="SAP__common.FieldControl" EnumMember="SAP__common.FieldControlType/Mandatory" />
+                <Annotation Term="SAP__common.Label" String="Paymnt currency" />
+                <Annotation Term="SAP__common.Heading" String="Curr." />
+                <Annotation Term="SAP__common.QuickInfo" String="Payment currency" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/AgencyNumber">
+                <Annotation Term="SAP__common.IsDigitSequence" />
+                <Annotation Term="SAP__common.Label" String="Agency No." />
+                <Annotation Term="SAP__common.QuickInfo" String="Travel Agency Number" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/CustomerGuid">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.Label" String="FBP GUID" />
+                <Annotation Term="SAP__common.Heading" String="Flight Business Partner GUID" />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight Business Partner GUID" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/IsCancelled">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__common.IsUpperCase" />
+                <Annotation Term="SAP__common.Label" String="Cancelation flag" />
+                <Annotation Term="SAP__common.Heading" String="Ca" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/__EntityControl">
+                <Annotation Term="SAP__core.Computed" />
+                <Annotation Term="SAP__UI.HiddenFilter" />
+                <Annotation Term="SAP__UI.Hidden" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/__OperationControl">
+                <Annotation Term="SAP__core.Computed" />
+            </Annotations>
+            <Annotations Target="SAP__self.cancel_booking(SAP__self.UX_BookingType)">
+                <Annotation Term="SAP__core.OperationAvailable" Path="_it/__OperationControl/cancel_booking" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType">
+                <Annotation Term="SAP__common.Label" String="Flight Booking - Projection" />
+                <Annotation Term="SAP__common.Messages" Path="SAP__Messages" />
+            </Annotations>
+            <Annotations Target="SAP__self.Container/UX_Booking">
+                <Annotation Term="SAP__capabilities.SearchRestrictions">
+                    <Record>
+                        <PropertyValue Property="Searchable" Bool="false" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.FilterRestrictions">
+                    <Record>
+                        <PropertyValue Property="NonFilterableProperties">
+                            <Collection>
+                                <PropertyPath>__EntityControl</PropertyPath>
+                                <PropertyPath>__OperationControl</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.SortRestrictions">
+                    <Record>
+                        <PropertyValue Property="NonSortableProperties">
+                            <Collection>
+                                <PropertyPath>__EntityControl</PropertyPath>
+                                <PropertyPath>__OperationControl</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.InsertRestrictions">
+                    <Record>
+                        <PropertyValue Property="Insertable" Bool="false" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.DeleteRestrictions">
+                    <Record>
+                        <PropertyValue Property="Deletable" Path="__EntityControl/Deletable" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__capabilities.UpdateRestrictions">
+                    <Record>
+                        <PropertyValue Property="Updatable" Path="__EntityControl/Updatable" />
+                        <PropertyValue Property="QueryOptions">
+                            <Record>
+                                <PropertyValue Property="SelectSupported" Bool="true" />
+                            </Record>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="SAP__self.Container">
+                <Annotation Term="SAP__CodeList.CurrencyCodes">
+                    <Record>
+                        <PropertyValue Property="Url" String="../../../../default/iwbep/common/0001/$metadata" />
+                        <PropertyValue Property="CollectionPath" String="Currencies" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__aggregation.ApplySupported">
+                    <Record>
+                        <PropertyValue Property="Transformations">
+                            <Collection>
+                                <String>aggregate</String>
+                                <String>groupby</String>
+                                <String>filter</String>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="Rollup" EnumMember="SAP__aggregation.RollupType/None" />
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__common.ApplyMultiUnitBehaviorForSortingAndFiltering" Bool="true" />
+                <Annotation Term="SAP__capabilities.FilterFunctions">
+                    <Collection>
+                        <String>eq</String>
+                        <String>ne</String>
+                        <String>gt</String>
+                        <String>ge</String>
+                        <String>lt</String>
+                        <String>le</String>
+                        <String>and</String>
+                        <String>or</String>
+                        <String>contains</String>
+                        <String>startswith</String>
+                        <String>endswith</String>
+                        <String>any</String>
+                        <String>all</String>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Email">
+                <Annotation Term="Communication.IsEmailAddress" />
+                <Annotation Term="SAP__common.Label" String="E-Mail Address" />
+                <Annotation Term="SAP__common.Heading" String="E-Mail" />
+                <Annotation Term="SAP__common.QuickInfo" String="Customer e-mail address" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Form">
+                <Annotation Term="SAP__common.Label" String="Form of address" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/Street">
+                <Annotation Term="SAP__common.Label" String="Street" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/City">
+                <Annotation Term="SAP__common.Label" String="City" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_CustomerType/changed_at">
+                <Annotation Term="SAP__common.Label" String="Last Changed At" />
+                <Annotation Term="SAP__common.QuickInfo" String="Last Changed At Timestamp" />
+            </Annotations>
+            <Annotations Target="SAP__self.UX_BookingType/FlightDate">
+                <Annotation Term="SAP__common.Label" String="Flight Date" />
+                <Annotation Term="SAP__common.Heading" String="Date" />
+                <Annotation Term="SAP__common.QuickInfo" String="Flight date" />
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,2081 @@
+[
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6528bf2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-02-27",
+        "BookingNumber": "2061",
+        "BookingDate": "2024-02-17",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 927.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e654ff52cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-02-28",
+        "BookingNumber": "7080",
+        "BookingDate": "2024-02-18",
+        "Class": "C",
+        "ForeignCurrencyPayment": 927.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "100",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6570e72cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "11297",
+        "BookingDate": "2024-01-17",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 912.60,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6581f72cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-07-06",
+        "BookingNumber": "13481",
+        "BookingDate": "2024-06-26",
+        "Class": "F",
+        "ForeignCurrencyPayment": 837.25,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "297",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65a6912cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1984",
+        "FlightDate": "2024-06-02",
+        "BookingNumber": "8494",
+        "BookingDate": "2024-05-23",
+        "Class": "C",
+        "ForeignCurrencyPayment": 380.65,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65e24f2cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-04-04",
+        "BookingNumber": "5624",
+        "BookingDate": "2024-03-24",
+        "Class": "F",
+        "ForeignCurrencyPayment": 793.00,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "111",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6604e92cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "407",
+        "FlightDate": "2024-01-29",
+        "BookingNumber": "85",
+        "BookingDate": "2024-01-19",
+        "Class": "F",
+        "ForeignCurrencyPayment": 864.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "119",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6621eb2cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "407",
+        "FlightDate": "2024-09-10",
+        "BookingNumber": "3798",
+        "BookingDate": "2024-07-05",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 536.00,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "112",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6657d72cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "401",
+        "FlightDate": "2024-12-15",
+        "BookingNumber": "7051",
+        "BookingDate": "2024-07-05",
+        "Class": "C",
+        "ForeignCurrencyPayment": 599.40,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "122",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64eca52cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-05-03",
+        "BookingNumber": "1516",
+        "BookingDate": "2024-04-21",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 610.30,
+        "ForeignCurrency": "SGD",
+        "AgencyNumber": "103",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e650adb2cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-06-06",
+        "BookingNumber": "5383",
+        "BookingDate": "2024-05-25",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 368.80,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "87",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e650bfd2cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-06-06",
+        "BookingNumber": "5528",
+        "BookingDate": "2024-05-25",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 368.80,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "87",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6538072cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-07-05",
+        "BookingNumber": "4017",
+        "BookingDate": "2024-06-24",
+        "Class": "F",
+        "ForeignCurrencyPayment": 824.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "114",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e654b652cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "6496",
+        "BookingDate": "2024-01-15",
+        "Class": "C",
+        "ForeignCurrencyPayment": 511.17,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "107",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e656bb92cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-10-10",
+        "BookingNumber": "10634",
+        "BookingDate": "2024-07-04",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 755.96,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "320",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e656dad2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-11-11",
+        "BookingNumber": "10884",
+        "BookingDate": "2024-07-04",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 7938.34,
+        "ForeignCurrency": "SEK",
+        "AgencyNumber": "106",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6574312cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-02-28",
+        "BookingNumber": "11718",
+        "BookingDate": "2024-02-17",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 811.20,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "115",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9cf2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6516a12cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-10-12",
+        "BookingNumber": "6890",
+        "BookingDate": "2024-07-02",
+        "Class": "F",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "101",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e654b112cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "6454",
+        "BookingDate": "2024-01-15",
+        "Class": "C",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "101",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e655e9b2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-07-06",
+        "BookingNumber": "8955",
+        "BookingDate": "2024-06-24",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 113875,
+        "ForeignCurrency": "JPY",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e656fb72cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "11145",
+        "BookingDate": "2024-01-14",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1014.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "122",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6578a32cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "12287",
+        "BookingDate": "2024-03-20",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1014.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "124",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e657cdf2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-06-04",
+        "BookingNumber": "12829",
+        "BookingDate": "2024-05-23",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1014.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "105",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65e0512cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-03-03",
+        "BookingNumber": "5369",
+        "BookingDate": "2024-02-18",
+        "Class": "F",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "188",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65f32b2cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-09-11",
+        "BookingNumber": "7782",
+        "BookingDate": "2024-07-03",
+        "Class": "C",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64e3472cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "317",
+        "BookingDate": "2024-01-13",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "188",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e651f8d2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "555",
+        "FlightDate": "2024-08-07",
+        "BookingNumber": "884",
+        "BookingDate": "2024-07-02",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 185.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "110",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6525a12cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-01-26",
+        "BookingNumber": "1662",
+        "BookingDate": "2024-01-12",
+        "Class": "F",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65397b2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-07-05",
+        "BookingNumber": "4203",
+        "BookingDate": "2024-06-21",
+        "Class": "F",
+        "ForeignCurrencyPayment": 1704.45,
+        "ForeignCurrency": "SGD",
+        "AgencyNumber": "103",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6559c32cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-06-04",
+        "BookingNumber": "8335",
+        "BookingDate": "2024-05-21",
+        "Class": "C",
+        "ForeignCurrencyPayment": 2060.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "122",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6559c52cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-06-04",
+        "BookingNumber": "8336",
+        "BookingDate": "2024-01-30",
+        "Class": "C",
+        "ForeignCurrencyPayment": 2060.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "93",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65cfcd2cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1699",
+        "FlightDate": "2024-02-26",
+        "BookingNumber": "3804",
+        "BookingDate": "2024-02-13",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 285.98,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "109",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65eeb92cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-08-10",
+        "BookingNumber": "7213",
+        "BookingDate": "2024-07-02",
+        "Class": "C",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65f8932cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-12-16",
+        "BookingNumber": "8474",
+        "BookingDate": "2024-07-01",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 881.00,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "297",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65fb192cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "400",
+        "FlightDate": "2024-01-30",
+        "BookingNumber": "164",
+        "BookingDate": "2024-01-16",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "117",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6629812cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "400",
+        "FlightDate": "2024-04-04",
+        "BookingNumber": "1120",
+        "BookingDate": "2024-03-21",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 611.01,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "55",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6637872cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "400",
+        "FlightDate": "2024-07-28",
+        "BookingNumber": "2915",
+        "BookingDate": "2024-07-14",
+        "Class": "F",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "291",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6512fb2cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-08-09",
+        "BookingNumber": "6423",
+        "BookingDate": "2024-06-29",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "119",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e652ff12cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-05-02",
+        "BookingNumber": "2982",
+        "BookingDate": "2024-04-17",
+        "Class": "C",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "125",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e653d552cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-08-06",
+        "BookingNumber": "4696",
+        "BookingDate": "2024-06-30",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6553fb2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "7595",
+        "BookingDate": "2024-03-17",
+        "Class": "C",
+        "ForeignCurrencyPayment": 638.96,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "107",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6555872cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "7793",
+        "BookingDate": "2024-03-17",
+        "Class": "C",
+        "ForeignCurrencyPayment": 9922.93,
+        "ForeignCurrency": "SEK",
+        "AgencyNumber": "106",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6561d52cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-07-06",
+        "BookingNumber": "9368",
+        "BookingDate": "2024-06-20",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "320",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65633f2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-08-07",
+        "BookingNumber": "9549",
+        "BookingDate": "2024-06-29",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "310",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65779b2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "12155",
+        "BookingDate": "2024-03-17",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 9768.78,
+        "ForeignCurrency": "SEK",
+        "AgencyNumber": "106",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65ce1d2cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1699",
+        "FlightDate": "2024-01-25",
+        "BookingNumber": "3588",
+        "BookingDate": "2024-01-10",
+        "Class": "F",
+        "ForeignCurrencyPayment": 50968,
+        "ForeignCurrency": "JPY",
+        "AgencyNumber": "118",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65ebe92cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-07-09",
+        "BookingNumber": "6853",
+        "BookingDate": "2024-06-24",
+        "Class": "C",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "120",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e66505b2cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "401",
+        "FlightDate": "2024-07-28",
+        "BookingNumber": "6093",
+        "BookingDate": "2024-07-14",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 611.01,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "304",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6674732cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "402",
+        "FlightDate": "2024-07-04",
+        "BookingNumber": "10713",
+        "BookingDate": "2024-06-19",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "116",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e668bcb2cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "2402",
+        "FlightDate": "2024-03-03",
+        "BookingNumber": "13701",
+        "BookingDate": "2024-02-16",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 242.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e66954b2cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "2402",
+        "FlightDate": "2024-05-06",
+        "BookingNumber": "14917",
+        "BookingDate": "2024-04-22",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 150.12,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "112",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d52cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6504472cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-03-02",
+        "BookingNumber": "4541",
+        "BookingDate": "2024-02-13",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 422.94,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "152",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6519432cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "555",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "79",
+        "BookingDate": "2024-01-11",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 185.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "115",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e652f632cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-05-02",
+        "BookingNumber": "2911",
+        "BookingDate": "2024-04-15",
+        "Class": "C",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "284",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6543ab2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-10-09",
+        "BookingNumber": "5507",
+        "BookingDate": "2024-06-29",
+        "Class": "F",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "111",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6556db2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-05-03",
+        "BookingNumber": "7963",
+        "BookingDate": "2024-04-17",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "320",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e656b292cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-10-10",
+        "BookingNumber": "10562",
+        "BookingDate": "2024-06-29",
+        "Class": "C",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "111",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65702d2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "11204",
+        "BookingDate": "2024-01-10",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 930.27,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "152",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d72cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64fae72cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-09-08",
+        "BookingNumber": "3341",
+        "BookingDate": "2024-06-28",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 285.98,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "109",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e652e8d2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-03-31",
+        "BookingNumber": "2804",
+        "BookingDate": "2024-03-14",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "297",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6584932cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-08-07",
+        "BookingNumber": "13815",
+        "BookingDate": "2024-06-27",
+        "Class": "F",
+        "ForeignCurrencyPayment": 1014.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e659f7b2cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1984",
+        "FlightDate": "2024-05-01",
+        "BookingNumber": "7587",
+        "BookingDate": "2024-04-14",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "116",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e661da52cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "407",
+        "FlightDate": "2024-08-09",
+        "BookingNumber": "3251",
+        "BookingDate": "2024-06-28",
+        "Class": "C",
+        "ForeignCurrencyPayment": 106136,
+        "ForeignCurrency": "JPY",
+        "AgencyNumber": "118",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6633df2cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "400",
+        "FlightDate": "2024-07-09",
+        "BookingNumber": "2447",
+        "BookingDate": "2024-06-22",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6642012cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "401",
+        "FlightDate": "2024-01-29",
+        "BookingNumber": "4256",
+        "BookingDate": "2024-01-12",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 413.15,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "109",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6652eb2cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "401",
+        "FlightDate": "2024-08-09",
+        "BookingNumber": "6421",
+        "BookingDate": "2024-06-28",
+        "Class": "F",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "116",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e667ea72cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "402",
+        "FlightDate": "2024-09-06",
+        "BookingNumber": "12019",
+        "BookingDate": "2024-06-28",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 666.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "119",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6687c52cf",
+        "AirlineID": "LH",
+        "ConnectionNumber": "2402",
+        "FlightDate": "2024-01-30",
+        "BookingNumber": "13186",
+        "BookingDate": "2024-01-13",
+        "Class": "C",
+        "ForeignCurrencyPayment": 242.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "114",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e66cd3f2cf",
+        "AirlineID": "QF",
+        "ConnectionNumber": "5",
+        "FlightDate": "2024-06-06",
+        "BookingNumber": "1762",
+        "BookingDate": "2024-05-20",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1050.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "119",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e66e77f2cf",
+        "AirlineID": "QF",
+        "ConnectionNumber": "6",
+        "FlightDate": "2024-07-06",
+        "BookingNumber": "5122",
+        "BookingDate": "2024-06-18",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1050.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e66f2272cf",
+        "AirlineID": "SQ",
+        "ConnectionNumber": "2",
+        "FlightDate": "2024-01-28",
+        "BookingNumber": "240",
+        "BookingDate": "2024-01-10",
+        "Class": "F",
+        "ForeignCurrencyPayment": 1286.23,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "323",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e67290b2cf",
+        "AirlineID": "SQ",
+        "ConnectionNumber": "988",
+        "FlightDate": "2024-05-04",
+        "BookingNumber": "12250",
+        "BookingDate": "2024-04-16",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 550.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "116",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6734c72cf",
+        "AirlineID": "SQ",
+        "ConnectionNumber": "988",
+        "FlightDate": "2024-09-09",
+        "BookingNumber": "13752",
+        "BookingDate": "2024-06-27",
+        "Class": "F",
+        "ForeignCurrencyPayment": 504.59,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "323",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6741152cf",
+        "AirlineID": "SQ",
+        "ConnectionNumber": "15",
+        "FlightDate": "2024-01-27",
+        "BookingNumber": "5359",
+        "BookingDate": "2024-01-10",
+        "Class": "C",
+        "ForeignCurrencyPayment": 869.74,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "109",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9d92cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64f1c12cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-06-04",
+        "BookingNumber": "2170",
+        "BookingDate": "2024-05-15",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "110",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6535812cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-06-03",
+        "BookingNumber": "3694",
+        "BookingDate": "2024-05-14",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "110",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65404d2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-09-07",
+        "BookingNumber": "5076",
+        "BookingDate": "2024-06-24",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6551e12cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "7326",
+        "BookingDate": "2024-03-13",
+        "Class": "F",
+        "ForeignCurrencyPayment": 3090.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "101",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6557192cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "789",
+        "FlightDate": "2024-05-03",
+        "BookingNumber": "7994",
+        "BookingDate": "2024-04-12",
+        "Class": "C",
+        "ForeignCurrencyPayment": 638.96,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "109",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e658dad2cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1699",
+        "FlightDate": "2024-08-05",
+        "BookingNumber": "5308",
+        "BookingDate": "2024-06-25",
+        "Class": "F",
+        "ForeignCurrencyPayment": 422.94,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "310",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9dd2cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6533232cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-06-03",
+        "BookingNumber": "3391",
+        "BookingDate": "2024-05-13",
+        "Class": "C",
+        "ForeignCurrencyPayment": 1277.92,
+        "ForeignCurrency": "GBP",
+        "AgencyNumber": "107",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9df2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6578552cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "12248",
+        "BookingDate": "2024-03-11",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 930.27,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "111",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9df2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65967b2cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1984",
+        "FlightDate": "2024-01-25",
+        "BookingNumber": "6435",
+        "BookingDate": "2024-01-03",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "121",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9df2cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6517652cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-11-13",
+        "BookingNumber": "6988",
+        "BookingDate": "2024-06-22",
+        "Class": "C",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "116",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6517db2cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-01-16",
+        "BookingNumber": "7047",
+        "BookingDate": "2024-06-22",
+        "Class": "F",
+        "ForeignCurrencyPayment": 1383.01,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "93",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6536312cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-06-03",
+        "BookingNumber": "3782",
+        "BookingDate": "2024-05-11",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 944.95,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "310",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e657af72cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-05-03",
+        "BookingNumber": "12585",
+        "BookingDate": "2024-04-11",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 930.27,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "320",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65a1212cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1984",
+        "FlightDate": "2024-05-01",
+        "BookingNumber": "7798",
+        "BookingDate": "2024-04-08",
+        "Class": "F",
+        "ForeignCurrencyPayment": 685.51,
+        "ForeignCurrency": "CHF",
+        "AgencyNumber": "108",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65d3292cf",
+        "AirlineID": "DL",
+        "ConnectionNumber": "1699",
+        "FlightDate": "2024-05-01",
+        "BookingNumber": "4234",
+        "BookingDate": "2024-04-09",
+        "Class": "C",
+        "ForeignCurrencyPayment": 922.01,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "124",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65edb12cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "408",
+        "FlightDate": "2024-07-09",
+        "BookingNumber": "7081",
+        "BookingDate": "2024-06-16",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "284",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e661ca52cf",
+        "AirlineID": "JL",
+        "ConnectionNumber": "407",
+        "FlightDate": "2024-07-08",
+        "BookingNumber": "3123",
+        "BookingDate": "2024-06-15",
+        "Class": "C",
+        "ForeignCurrencyPayment": 961.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "101",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e12cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64ec872cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-05-03",
+        "BookingNumber": "1501",
+        "BookingDate": "2024-04-09",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 663.22,
+        "ForeignCurrency": "CAD",
+        "AgencyNumber": "233",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e64f0f52cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "17",
+        "FlightDate": "2024-06-04",
+        "BookingNumber": "2068",
+        "BookingDate": "2024-05-11",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 422.94,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "320",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6502352cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-03-02",
+        "BookingNumber": "4276",
+        "BookingDate": "2024-02-07",
+        "Class": "C",
+        "ForeignCurrencyPayment": 461.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "284",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e650fc12cf",
+        "AirlineID": "AA",
+        "ConnectionNumber": "64",
+        "FlightDate": "2024-07-08",
+        "BookingNumber": "6010",
+        "BookingDate": "2024-06-14",
+        "Class": "F",
+        "ForeignCurrencyPayment": 422.94,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6520952cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "555",
+        "FlightDate": "2024-09-08",
+        "BookingNumber": "1016",
+        "BookingDate": "2024-06-21",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 185.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "61",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6526a92cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-01-26",
+        "BookingNumber": "1794",
+        "BookingDate": "2024-01-02",
+        "Class": "Y",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "0",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e65292b2cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "788",
+        "FlightDate": "2024-02-27",
+        "BookingNumber": "2115",
+        "BookingDate": "2024-02-03",
+        "Class": "C",
+        "ForeignCurrencyPayment": 1030.00,
+        "ForeignCurrency": "EUR",
+        "AgencyNumber": "114",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "X",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    },
+    {
+        "BookingGuid": "00505604-4e85-1edd-818f-21e6576a72cf",
+        "AirlineID": "AZ",
+        "ConnectionNumber": "790",
+        "FlightDate": "2024-04-01",
+        "BookingNumber": "12033",
+        "BookingDate": "2024-03-08",
+        "Class": "F",
+        "ForeignCurrencyPayment": 930.27,
+        "ForeignCurrency": "USD",
+        "AgencyNumber": "323",
+        "CustomerGuid": "00505604-4e85-1edd-818f-21e64b9e32cf",
+        "IsCancelled": "",
+        "__EntityControl": {
+            "Deletable": true,
+            "Updatable": true
+        },
+        "__OperationControl": {
+            "cancel_booking": true
+        }
+    }
+]
