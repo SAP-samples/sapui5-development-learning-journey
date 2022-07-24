@@ -1,7 +1,7 @@
-<mvc:View 
+<mvc:View controllerName="sap.training.exc.controller.App"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
 
-    <Text text="Hello World"/>
+    <Button text="Say Hello" press=".onSayHello"/>
    
 </mvc:View>
