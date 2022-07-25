@@ -36,6 +36,11 @@ sap.ui.define([
                 // note: You don't need to chain to the pDialog promise, since this event handler
                 // is only called from within the loaded dialog itself.
                 this.byId("dialog").close();
+            },
+
+            onCustomerChange: function (oEvent) {
+                var oBindingContext = oEvent.getParameter("listItem").getBindingContext();
+                this.byId("bookingTable").setBindingContext(oBindingContext);
             }
 
         });
