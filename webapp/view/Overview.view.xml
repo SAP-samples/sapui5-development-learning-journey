@@ -49,7 +49,56 @@
                         </f:content>
                     </f:SimpleForm>
                 </content>
-            </Panel> 
+            </Panel>
+
+            <Table headerText="Customers" growing="true" growingThreshold="5" class="sapUiResponsiveMargin" width="auto"
+                   items="{/Customers}">
+                <columns>
+                     <Column>
+                        <header>
+                            <Text text="Customer Name"/>
+                        </header>                        
+                    </Column>
+                    <Column>
+                        <header>
+                            <Text text="Street"/>
+                        </header>                        
+                    </Column>
+                    <Column>
+                        <header>
+                            <Text text="Post Code"/>
+                        </header>                        
+                    </Column>
+                    <Column>
+                        <header>
+                            <Text text="City"/>
+                        </header>                        
+                    </Column>
+                    <Column>
+                        <header>
+                            <Text text="Country"/>
+                        </header>                        
+                    </Column>
+                    <Column>
+                        <header>
+                            <Text text="Email"/>
+                        </header>                        
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <ObjectIdentifier title="{CustomerName}"/>
+                            <Text text="{Street}"/>
+                            <Text text="{PostCode}"/>
+                            <Text text="{City}"/>
+                            <Text text="{Country}"/>
+                            <Text text="{Email}"/>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+
         </content>
     </Page>
    
