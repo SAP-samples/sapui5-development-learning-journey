@@ -1,7 +1,8 @@
 <mvc:View controllerName="sap.training.exc.controller.Overview"
           xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core"
           xmlns:mvc="sap.ui.core.mvc"
-          xmlns="sap.m">
+          xmlns="sap.m"
+          core:require="{formatter: 'sap/training/exc/model/formatter'}">
 
      <Page title="Flight Customers">
         <content>
@@ -143,7 +144,8 @@
                             <ObjectIdentifier title="{ path: 'FlightDate',
                                                        type: 'sap.ui.model.type.Date',
                                                        formatOptions: {source: {pattern: 'yyyy-MM-dd'}, style: 'medium'} }"/>
-                            <Text text="{Class}"/>
+                            <Text text="{ path: 'Class', 
+                                          formatter: 'formatter.classText' }"/>
                             <ObjectNumber
                                     number="{
                                         parts: [ {path: 'ForeignCurrencyPayment'}, {path: 'ForeignCurrency'} ],
