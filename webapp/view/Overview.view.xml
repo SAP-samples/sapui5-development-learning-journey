@@ -54,9 +54,17 @@
                 </content>
             </Panel>
 
-            <Table headerText="Customers" growing="true" growingThreshold="5" class="sapUiResponsiveMargin" width="auto"
+            <Table id="customerTable" growing="true" growingThreshold="5" class="sapUiResponsiveMargin" width="auto"
                    mode="SingleSelectLeft" selectionChange=".onCustomerChange"
-                   items="{/Customers}">
+                   items="{ path: '/Customers',
+                            sorter: [ {path: 'City', group: true}, {path: 'CustomerName'} ] }">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Customers"/>
+                        <ToolbarSpacer/>
+                        <SearchField width="40%" search=".onFilterCustomers"/>
+                    </Toolbar>
+                </headerToolbar>          
                 <columns>
                      <Column>
                         <header>
