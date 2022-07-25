@@ -83,6 +83,7 @@
                 "uri": "model/data.json"
             }
         },
+        "handleValidation": true,
         "resources": {
             "css": [
                 {
