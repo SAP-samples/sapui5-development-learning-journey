@@ -5,7 +5,7 @@
 
      <Page title="Flight Customers">
         <content>
-            <Panel headerText="New Customer" expandable="true" expanded="true">
+            <Panel headerText="New Customer" expandable="true" expanded="true" class="sapUiResponsiveMargin sapUiHideOnPhone" width="auto">
 				<content>								
                     <f:SimpleForm layout="ColumnLayout" editable="true">
                         <f:toolbar>

@@ -59,7 +59,7 @@
             }
         },
         "contentDensities": {
-            "compact": false,
+            "compact": true,
             "cozy": true
         },
         "models": {
