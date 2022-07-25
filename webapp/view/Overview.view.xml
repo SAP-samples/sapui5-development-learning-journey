@@ -1,7 +1,56 @@
 <mvc:View controllerName="sap.training.exc.controller.Overview"
-          xmlns:mvc="sap.ui.core.mvc"  
+          xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core"
+          xmlns:mvc="sap.ui.core.mvc"
           xmlns="sap.m">
 
+     <Page title="Flight Customers">
+        <content>
+            <Panel headerText="New Customer" expandable="true" expanded="true">
+				<content>								
+                    <f:SimpleForm layout="ColumnLayout" editable="true">
+                        <f:toolbar>
+                            <Toolbar>
+                                <content>
+                                    <ToolbarSpacer/>
+                                    <Button icon="sap-icon://create" text="Create Customer"/>
+                                </content>
+                            </Toolbar>
+                        </f:toolbar>
+                        <f:content>
+                            <core:Title text="General Data"/>
+                                <Label text="Form"/>
+                                <Input value=""/>
 
+                                <Label text="Customer Name"/>
+                                <Input value=""/>
+                               
+                                <Label text="Discount"/>
+                                <Input value=""/>
+
+                            <core:Title text="Address Data"/>
+                                <Label text="Street"/>
+                                <Input value=""/>
+
+                                <Label text="Post Code"/>
+                                <Input value=""/>
+
+                                <Label text="City"/>
+                                <Input value=""/>
+
+                                <Label text="Country"/>
+                                <Input value=""/>                  
+
+                            <core:Title text="Contact Data"/>
+                                <Label text="Email"/>                    
+                                <Input value=""/>
+
+                                <Label text="Telephone"/>
+                                <Input value=""/>                     
+                        </f:content>
+                    </f:SimpleForm>
+                </content>
+            </Panel> 
+        </content>
+    </Page>
    
 </mvc:View>
