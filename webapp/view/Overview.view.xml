@@ -99,7 +99,7 @@
                     </Column>
                 </columns>
                 <items>
-                    <ColumnListItem>
+                    <ColumnListItem type="Navigation" press="onNavToDetails">
                         <cells>
                             <ObjectIdentifier title="{CustomerName}"/>
                             <Text text="{Street}"/>
