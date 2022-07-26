@@ -6,7 +6,7 @@
 
      <Page title="Flight Customers">
         <content>
-            <Panel headerText="New Customer" expandable="true" expanded="true" class="sapUiResponsiveMargin sapUiHideOnPhone" width="auto">
+            <Panel headerText="New Customer" expandable="{= !${device>/system/desktop} }" expanded="{device>/system/desktop}" class="sapUiResponsiveMargin sapUiHideOnPhone" width="auto">
 				<content>								
                     <f:SimpleForm layout="ColumnLayout" editable="true">
                         <f:toolbar>
@@ -72,12 +72,12 @@
                             <Text text="Customer Name"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Desktop">
                         <header>
                             <Text text="Street"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Desktop">
                         <header>
                             <Text text="Post Code"/>
                         </header>                        
@@ -87,12 +87,12 @@
                             <Text text="City"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Tablet">
                         <header>
                             <Text text="Country"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
                         <header>
                             <Text text="Email"/>
                         </header>                        
@@ -129,17 +129,17 @@
                             <Text text="Flight Date"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true">
                         <header>
                             <Text text="Class"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
                         <header>
                             <Text text="Foreign Currency Payment"/>
                         </header>                        
                     </Column>
-                    <Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
                         <header>
                             <Text text="Cancellation Status"/>
                         </header>                        
