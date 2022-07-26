@@ -5,7 +5,10 @@
       id="dialog"
       title="Info" type="Message">
         <content>
-            <Text text="Customer {customer>/CustomerName} is later saved via an OData service."/>
+            <Text core:require="{formatMessage: 'sap/base/strings/formatMessage'}"
+                  text="{ parts:     [ {path: 'i18n>dialogText'},
+                                       {path: 'customer>/CustomerName'} ],
+                          formatter: 'formatMessage' }"/>
         </content>
         <beginButton>
             <Button
