@@ -2,9 +2,26 @@
           xmlns:mvc="sap.ui.core.mvc" 
           xmlns="sap.m">
         
-     <Page title="{i18n>detailPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
+    <Page title="{i18n>detailPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
         <content>
-           
+            <ObjectHeader
+                responsive="true"
+                fullScreenOptimized="true"
+                title="{Form} {CustomerName}">
+                <attributes>
+                    <ObjectAttribute title="{i18n>customerNumberTitle}" text="{CustomerNumber}"/>
+                    <ObjectAttribute title="{i18n>streetTitle}" text="{Street}"/>
+                    <ObjectAttribute title="{i18n>postcodeTitle}" text="{PostCode}"/>
+                    <ObjectAttribute title="{i18n>cityTitle}" text="{City}"/>
+                    <ObjectAttribute title="{i18n>countryTitle}" text="{Country}"/>
+                    <ObjectAttribute title="{i18n>emailTitle}" text="{Email}"/>
+                    <ObjectAttribute title="{i18n>phoneTitle}" text="{Telephone}"/>                
+                    <ObjectAttribute title="{i18n>discountTitle}" text="{ path: 'Discount',
+                                                                          type: 'sap.ui.model.type.Float',
+                                                                          formatOptions: {minFractionDigits: 2, maxFractionDigits: 2}
+                                                                        } %"/>
+                </attributes>
+		    </ObjectHeader>    
         </content>
     </Page>
 
