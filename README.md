@@ -1,41 +1,42 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Mon Jul 18 2022 13:49:15 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>@sap/generator-fiori-freestyle|
-|**App Generator Version**<br>1.6.6|
-|**Generation Platform**<br>SAP Business Application Studio|
-|**Floorplan Used**<br>simple|
-|**Service Type**<br>SAP System (ABAP On Premise)|
-|**Service URL**<br>http://s4d.virtual:443/sap/opu/odata4/sap/ux_ui_customer_o4/srvd/sap/ux_ui_customer/0001/
-|**Module Name**<br>exc|
-|**Application Title**<br>Exercise Application|
-|**Namespace**<br>sap.training|
-|**UI5 Theme**<br>sap_fiori_3|
-|**UI5 Version**<br>1.96.10|
-|**Enable Code Assist Libraries**<br>False|
-|**Add Eslint configuration**<br>False|
+# Welcome to the Learning Journey "Building side-by-side extensions on SAP BTP"
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sapui5-development-learning-journey)](https://api.reuse.software/info/github.com/sapui5-development-learning-journey)
 
-## exc
+Welcome to this repository for the learning journey "SAP UI5 Development Learning journey" published on [SAP Learning](https://learning.sap.com/learning-journey/). We provide a starting template for the exercises as well as a dedicated branch for each exercise with its final solution.
 
-Exercise Scenario
+## Requirements
+You can complete each of the exercises using your SAP BTP Free Tier account.
 
-### Starting the generated app
+## Download and Installation
 
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply run the following from the generated app root folder:
+To get started with the first exercise, simply run the following commands in your terminal:
 
-```
-    npm start
+```sh
+git clone https://github.com/SAP-samples/sapui5-development-learning-journey
 ```
 
-- It is also possible to run the application using mock data that reflects the OData Service URL supplied during application generation.  In order to run the application with Mock Data, run the following from the generated app root folder:
+We recommend to follow the instructions in the [learning journey](https://learning.sap.com/learning-journey/sapui5-development-learning-journey) to get started.
 
+
+If you want to start or continue from a specific unit or exercise, get the name of its branch from the tutorial, clone this repository and switch to the desired branch:
+
+```sh
+git checkout <branch>
 ```
-    npm run start-mock
-```
 
-#### Pre-requisites:
+## Known Issues
 
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
+1. If you need support, please post your issues in our [SAP BTP Learning Group](https://groups.community.sap.com/t5/sap-btp-learning/gh-p/SAP-BTP-Learning).
+
+## How to obtain support
+
+To get support during the exercises, please [ask a question in our SAP BTP Learning Group](https://groups.community.sap.com/t5/sap-btp-learning/gh-p/sapui5-development).
+
+## Contributing
+If you have suggestions on how to improve the tutorial, you're welcome to provide your input [here](https://github.com/SAP-samples/sapui5-development-learning-journey).
+
+If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+
+## License
+Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
 
