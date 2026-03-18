@@ -30,7 +30,7 @@
   "ui5": {
     "dependencies": [
       "@sap/ux-ui5-tooling",
-      "@sap-ux/ui5-middleware-fe-mockservre"
+      "@sap-ux/ui5-middleware-fe-mockserver"
     ]
   },
   "sapuxLayer": "CUSTOMER_BASE"
