@@ -8,3 +8,5 @@ mta-*
 resources
 archive.zip
 .*_mta_build_tmp
+AGENTS.md
+opencode.json
